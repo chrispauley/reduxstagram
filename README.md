@@ -4,3 +4,5 @@ This is an upgraded version of Wes Bos's Reduxstagram application which he used 
 
 A running version of the site can be viewed at [https://chrispauley.github.io/reduxstagram/](https://chrispauley.github.io/reduxstagram/)
 
+### Other Changes
+Needed to use HashRouter in order to work with gh-pages. 
