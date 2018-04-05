@@ -21,7 +21,7 @@ const NoMatch = ({ location }) => (
 
 const router = (
   <Provider store={store}>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <section>
         <Main />
         <Switch>
