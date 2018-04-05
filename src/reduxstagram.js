@@ -9,7 +9,7 @@ import Single from "./components/Single";
 import { Provider } from "react-redux";
 import store, { history } from "./store";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 const NoMatch = ({ location }) => (
   <div>
